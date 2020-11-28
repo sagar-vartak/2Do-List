@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2DO</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/design.css" />
+    <link href="./images/icon.png" rel="icon" type="image/png" />
+    <script src="./src/app.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900|Quicksand:400,700|Questrial"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div id="header-container">
+        <div id="header" class="container">
+          <div id="logo">
+            <img src="./images/icon.png" width="100px" height="100px" />
+            <h2 id="header-h1">ToDoList</h2>
+            <span onclick="myFunction(this)" class="fa fa-sun-o fa-2x"></span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div>
+      <div class="listcontainer">
+        <form>
+          <input type="text" class="addTxt" id="click" placeholder="Task..." />
+          <button class="addBtn" id="adBtn" onclick="addElement()">
+            <i class="fa fa-plus fa-2x" aria-hidden="true"></i>
+          </button>
+        </form>
+        <div class="list"></div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div id="copyright">
+        <p>&copy; ShAaGGy. All rights reserved. | Design by Sagar Vartak</p>
+        <ul class="contact">
+          <li>
+            <a href="#"><span class="fa fa-twitter fa-2x"></span></a>
+          </li>
+          <li>
+            <a href="#"><span class="fa fa-facebook fa-2x"></span></a>
+          </li>
+          <li>
+            <a href="#"><span class="fa fa-instagram fa-2x"></span></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
